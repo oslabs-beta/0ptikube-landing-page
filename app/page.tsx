@@ -6,7 +6,6 @@ import { Orbitron } from 'next/font/google';
 import { Github, Linkedin, Mail } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
-import Head from 'next/head';
 import Logo from '../assets/images/logo.webp';
 import Richard from '../assets/images/richard.jpg';
 import Oliver from '../assets/images/oliver.jpg';
@@ -21,15 +20,6 @@ const orbitron = Orbitron({ subsets: ['latin'], weight: '700' });
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>0PTIKUBE - Give Your Pods the Optimization They Deserve.</title>
-        <meta
-          name='description'
-          content='Optimize your Kubernetes clusters with AI-powered recommendations and real-time insights.'
-        />
-        <meta name='robots' content='index, follow' />
-      </Head>
-
       <div className='min-h-screen bg-[#0a192f] text-white'>
         {/* Navbar */}
         <nav className='sticky top-0 z-10 bg-[#0a192f]/90 backdrop-blur-sm border-b border-[#1e3a8a]'>
