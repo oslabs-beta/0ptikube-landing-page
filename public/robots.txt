@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://0ptikube.dev
+
+# Sitemaps
+Sitemap: https://0ptikube.dev/sitemap.xml
