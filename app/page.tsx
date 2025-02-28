@@ -13,7 +13,6 @@ import Jason from '../assets/images/jason.jpg';
 import Senay from '../assets/images/senay.jpg';
 import Optimize from '../assets/images/optimize-page.png';
 import { redirect } from 'next/navigation';
-import { Main } from 'next/document';
 
 const orbitron = Orbitron({ subsets: ['latin'], weight: '700' });
 
