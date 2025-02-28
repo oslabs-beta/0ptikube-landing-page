@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://optikube.dev
+Host: https://0ptikube.dev
 
 # Sitemaps
-Sitemap: https://optikube.dev/sitemap.xml
+Sitemap: https://0ptikube.dev/sitemap.xml
